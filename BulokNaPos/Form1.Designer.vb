@@ -25,7 +25,7 @@ Partial Class Form1
         lbUname = New Label()
         lbPword = New Label()
         tbUname = New TextBox()
-        tbPass = New TextBox()
+        tbPword = New TextBox()
         btnLogin = New Button()
         SuspendLayout()
         ' 
@@ -54,12 +54,12 @@ Partial Class Form1
         tbUname.Size = New Size(100, 23)
         tbUname.TabIndex = 2
         ' 
-        ' tbPass
+        ' tbPword
         ' 
-        tbPass.Location = New Point(309, 136)
-        tbPass.Name = "tbPass"
-        tbPass.Size = New Size(100, 23)
-        tbPass.TabIndex = 3
+        tbPword.Location = New Point(309, 136)
+        tbPword.Name = "tbPword"
+        tbPword.Size = New Size(100, 23)
+        tbPword.TabIndex = 3
         ' 
         ' btnLogin
         ' 
@@ -76,7 +76,7 @@ Partial Class Form1
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Controls.Add(btnLogin)
-        Controls.Add(tbPass)
+        Controls.Add(tbPword)
         Controls.Add(tbUname)
         Controls.Add(lbPword)
         Controls.Add(lbUname)
@@ -89,7 +89,7 @@ Partial Class Form1
     Friend WithEvents lbUname As Label
     Friend WithEvents lbPword As Label
     Friend WithEvents tbUname As TextBox
-    Friend WithEvents tbPass As TextBox
+    Friend WithEvents tbPword As TextBox
     Friend WithEvents btnLogin As Button
 
 End Class
